@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 22px;
+    background-color: #F3D7B7;
+}
+.container{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header_link{
+    color: #333333;
+        font-family: "Roboto";
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 1px;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.5s ease-in-out;
+}
+.header_link:hover{
+    color: red;
+}
+.hero{
+    background-color: #F3D7B7;
+    padding-top: 130px;
+    padding-bottom: 257px;
+}
+.hero_text{
+    width: 464px;
+}
+.h1{
+    color: #000000;
+font-family: "Roboto";
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+}
+.text{
+    color: #000000;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin: 47px 0;
+}
+.button{
+    color: #ffffff;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 1px;
+text-align: center;
+border-radius: 100px;
+width: 193px;
+height: 51px;
+background-color: #0a775f;
+transition: 1s ease-in-out;
+border: none;
+}
+.button:hover{
+    color: #F3D7B7;
+    background-color: #000000;
+}
+.button:active{
+    color: blue;
+    background-color: coral;
+}
+.button:focus{
+    color: blue;
+    background-color: coral;
+}
+.hero_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ras{
+position: absolute;
+top: 170px;
+right: 0;
+}
+.ret::before{
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    right: 600px;
+    background-image: url(./images/image\ 40.png);
+    width: 160px;
+    height: 160px;
+    background-position: center;
+    display: block;
+    content: "";
+    transform: rotate(0deg);
+    animation-name: wolf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+@keyframes wolf{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.our{
+    color: #000000;
+font-family: "Roboto";
+font-size: 50px;
+font-weight: 700;
+line-height: 59px;
+padding: 108px ;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.lavaw{
+    display: flex;
+    align-items: center;
+}
+.plan{
+    margin-left: 116px;
+    padding-bottom: 150px;
+    color: rgb(51, 51, 51);
+font-family: "Roboto";
+font-size: 48px;
+font-weight: 500;
+line-height: 56px;
+}
+.tel{
+    margin-left: 168px;
+    transform: scale();
+    animation-duration: 2s;
+    animation-name: lisa;
+    animation-iteration-count: initial;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes lisa{
+0%{
+    transform: scale(1);
+}
+100%{
+    transform: scale(1.5);
+}
+}
+.df{
+    position: absolute;
+    width: 468px;
+    z-index: 2;
+    margin-left: 754px;
+    color: #333333;
+font-family: "Roboto";
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+}
+.lavw{
+    position: relative;
+}
+.cofe{
+    width: 465px;
+    height: 375px;
+    margin-left: 950px;
+    transform: scale();
+    animation-duration: 2s;
+    animation-name: lisa;
+    animation-iteration-count: initial;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes lisa{
+0%{
+    transform: scale(1);
+}
+100%{
+    transform: scale(1.5);
+}
+}
+.avaw{
+    display: flex;
+    align-items: center;
+}
+.devor{
+    position: relative;
+}
+.pln{
+    position: absolute;
+    margin-left: 430px;
+    padding-bottom: 150px;
+    color: rgb(51, 51, 51);
+font-family: "Roboto";
+font-size: 48px;
+font-weight: 500;
+line-height: 56px;
+text-align: center;
+}
+.d{
+    position: absolute;
+    width: 468px;
+    z-index: 2;
+    margin-left: 430px;
+    color: #333333;
+font-family: "Roboto";
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+}
+.ava{
+    margin-left: 950px;
+    transform: scale();
+    animation-duration: 2s;
+    animation-name: lisa;
+    animation-iteration-count: initial;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes lisa{
+0%{
+    transform: scale(1);
+}
+100%{
+    transform: scale(1.5);
+}
+}
+
+.footer{
+    background-color: #F3D7B7;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    padding-right: 1200px;
+}
+.header_lst{
+    padding-left: 601px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.header_lik{
+    color: #333333;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 1px;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+}
+.header_lik:hover{
+    color: red;
+}
+.yut{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 320px;
+}
